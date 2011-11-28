@@ -3,13 +3,13 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	1.0.2
-Release:	%mkrel 14
+Version:	1.0.3
+Release:	%mkrel 1
 Summary:	Encryption class for RC4 encryption
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/Crypt_Rc4/
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
+Source0:	http://download.pear.php.net/package/Crypt_RC4-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -58,5 +58,3 @@ fi
 %defattr(-,root,root)
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/packages/%{upstream_name}.xml
-
-
