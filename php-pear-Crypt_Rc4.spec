@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.0.2
-Release:	%mkrel 15
+Release:	18
 Summary:	Encryption class for RC4 encryption
 License:	PHP License
 Group:		Development/PHP
@@ -15,7 +15,6 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	php-pear
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 RC4 encryption class.
@@ -25,7 +24,6 @@ RC4 encryption class.
 mv package.xml Crypt_RC4-%{version}/%{upstream_name}.xml
 
 %install
-rm -rf %{buildroot}
 
 cd Crypt_RC4-%{version}
 pear install --nodeps --packagingroot %{buildroot} %{upstream_name}.xml
@@ -38,7 +36,6 @@ install -d %{buildroot}%{_datadir}/pear/packages
 install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 %clean
-rm -rf %{buildroot}
 
 
 
