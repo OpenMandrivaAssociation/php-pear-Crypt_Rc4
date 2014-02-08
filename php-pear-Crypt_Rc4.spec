@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.0.3
-Release:	1
+Release:	2
 Summary:	Encryption class for RC4 encryption
 License:	PHP License
 Group:		Development/PHP
