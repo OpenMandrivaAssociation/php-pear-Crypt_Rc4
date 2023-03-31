@@ -5,7 +5,7 @@
 Summary:	Encryption class for RC4 encryption
 Name:		php-pear-%{upstream_name}
 Version:	1.0.3
-Release:	11
+Release:	12
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/Crypt_Rc4/
