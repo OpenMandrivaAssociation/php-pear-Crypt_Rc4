@@ -8,7 +8,7 @@ Version:	1.0.3
 Release:	12
 License:	PHP License
 Group:		Development/PHP
-Url:		http://pear.php.net/package/Crypt_Rc4/
+Url:		https://pear.php.net/package/Crypt_Rc4/
 Source0:	http://download.pear.php.net/package/Crypt_RC4-%{version}.tgz
 BuildArch:	noarch
 BuildRequires:	php-pear
